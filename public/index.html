@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FaithLinks Daily Lectio</title>
+  <link rel="stylesheet" href="/css/tailwind.min.css">
+</head>
+<body class="bg-slate-900 text-white font-sans">
+
+  <main class="max-w-4xl mx-auto px-6 py-12 space-y-12">
+    <!-- Quote Section -->
+    <div class="bg-blue-900 p-6 rounded-md text-center">
+      <p id="daily-quote" class="italic">Loading quote...</p>
+      <p id="daily-citation" class="text-sm mt-2">Loading citation...</p>
+    </div>
+
+    <!-- Daily Links -->
+    <div class="space-y-6 text-left">
+      <h2 class="text-xl font-bold">Today’s Lectio Links</h2>
+      <p id="lectio-summary">Loading summary...</p>
+      <p id="psalm-summary">Loading psalm summary...</p>
+      <p id="gospel-summary">Loading gospel summary...</p>
+    </div>
+
+    <!-- Prayer and Modern Links -->
+    <div class="space-y-4">
+      <h2 class="text-xl font-bold">Let Us Pray</h2>
+      <p id="daily-prayer">Loading prayer...</p>
+      <h2 class="text-xl font-bold">Modern Links</h2>
+      <p id="modern-links">Loading modern links...</p>
+    </div>
+
+    <!-- Readings Link -->
+    <div class="text-center mt-4">
+      <a id="readings-link" href="#" target="_blank" class="inline-block bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+        Daily Readings
+      </a>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
+      <a href="https://bible.usccb.org" class="bg-blue-800 text-white py-2 rounded text-center">Daily Scripture</a>
+      <a href="exegesis.html" class="bg-blue-800 text-white py-2 rounded text-center">Deep Dive</a>
+      <a href="saint.html" class="bg-blue-800 text-white py-2 rounded text-center">Saint of the Day</a>
+      <a href="donate.html" class="bg-amber-700 text-white py-2 rounded text-center">Donate</a>
+    </div>
+  </main>
+
+  <footer class="text-sm text-center text-gray-300 mt-6">
+    © 2025 Daily Lectio Media LLC
+  </footer>
+
+  <!-- Daily Data Injection -->
+  <script src="/js/dailyreader.js" type="text/javascript"></script>
+</body>
+</html>
