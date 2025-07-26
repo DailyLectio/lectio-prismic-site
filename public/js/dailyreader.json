@@ -1,3 +1,4 @@
+[
  {
     "date": "2025-07-26",
     "quote": "When fear pursues you like Pharaoh’s chariots… the tomb breaks open.",
@@ -49,12 +50,18 @@
     "modern_links": "Grace isn’t soft. It’s full of fire and forgiveness. Don’t mistake kindness for weakness."
   },
   {
-    "date": "2025-07-31",
-    "quote": "Choose today whom you will serve.",
-    "citation": "Joshua 24:15",
-    "lectio_links": "Joshua reminds Israel to choose: gods of Egypt or the Lord.",
-    "psalm_links": "Taste and see the goodness of the Lord.",
-    "gospel_links": "The scribes trained for the kingdom bring out new and old treasures.",
-    "prayer": "I choose You again today, Lord. Let my heart never grow divided.",
-    "modern_links": "Each day offers a hundred small altars. Who you serve is written in your habits."
+    "date": "2025-07-26",
+    "quote": "Example quote",
+    "citation": "John 3:16",
+    "summary": "Daily summary here.",
+    "psalm_summary": "Psalm summary here.",
+    "gospel_summary": "Gospel summary here.",
+    "prayer": "Prayer text here.",
+    "usccb_link": "https://bible.usccb.org/daily-readings/2025-07-26",
+    "modern_links": "Modern reflection or lyrics here."
+  },
+  {
+    "date": "2025-07-27",
+    ...
   }
+]
